@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* common Class */
+
+.btn {
+  border-radius: 10px;
+  background: rgba(78, 71, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding: 12px 36px 12px 36px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(9, 4, 132, 0.8);
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+/* Navigation Bar */
+
+.navbar ul {
+  padding: 52px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #4E47FF;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+
+
+.hero {
+  padding: 160px 268px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 65px;
+  font-weight: 600;
+  margin-bottom: 34px;
+}
+
+.header {
+  background: url('./Assets/Hero-bg.png') no-repeat center center/cover;
+}
+
+/* action */
+.action {
+  margin: 116px 150px;
+}
+
+.section-description {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.action-content{
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  width: 517px;
+}
+
+.action-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-image-container{
+  border-radius: 48px;
+}
+
+.w-230 {
+  width: 230px;
+}
