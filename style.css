@@ -192,3 +192,48 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Let’s Get in Touch */
+.container-title{
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: none;
+  width: 500px;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: none;
+}
+
+.form-group > label {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.form-group > input, .form-group > textarea {
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.section-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form{
+  background-color: aliceblue;
+  border-radius: 24px;
+  padding: 50px 80px;
+}
