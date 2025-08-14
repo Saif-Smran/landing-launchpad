@@ -38,6 +38,9 @@
   font-weight: 600;
 }
 
+.text-center{
+  text-align: center;
+}
 /* Navigation Bar */
 
 .navbar ul {
@@ -146,4 +149,46 @@
   padding: 50px 80px 50px 80px;
   border-radius: 24px;
   background: rgba(78, 71, 255, 0.1);
+}
+
+/* What our users say */
+
+.card{
+  width: 367px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 24px;
+  background-color: aliceblue;
+}
+
+.card-title{
+  margin-bottom: 8px;
+}
+
+.card-reviewer{
+  display: flex;
+  gap: 12px;
+}
+
+.card-reviewer-title{
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card-reviewer-subtitle{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.rounded{
+  border-radius: 50%;
+}
+
+.card-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
